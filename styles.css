@@ -1,0 +1,38 @@
+Nav {
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+}
+
+div {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+a {
+    padding: 20px;
+}
+
+@media (min-width: 400px) {
+    h1::before {
+        content: "Here is: "
+    }
+}
+
+@media (max-width: 399px) {
+    h1::before {
+        content: ""
+    }
+}
+
+.goalsheader {
+    background-color: red;
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
